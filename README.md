@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+CHECK IF NODE IS INSTALLED, IF ITS NOT INSTALL IT
+```bash
+node -v
+
+INSTALL DEPENDENCIES
+```bash
+npm i
 
 ## Getting Started
 
