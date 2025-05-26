@@ -61,6 +61,7 @@ export default function RestaurantSearch() {
             <p><strong>Cuisine:</strong> {r.cuisine}</p>
             <p><strong>Rating:</strong> {r.rating ?? 'N/A'}</p>
             <p><strong>Price:</strong> {r.price ?? 'N/A'}</p>
+            <p><strong>Hours:</strong> {JSON.stringify(r.hours, null, 2)}</p>
           </li>
         ))}
       </ul>
